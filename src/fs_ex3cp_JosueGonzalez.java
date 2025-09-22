@@ -12,7 +12,9 @@ public class fs_ex3cp_JosueGonzalez {
 
         Path destFile = Paths.get(dirName.toString() + "/" + fileName.getFileName());
 
-        Files.copy(fileName,  destFile);
+        Files.copy(fileName, destFile);
+        
+        
     }
     
 }
