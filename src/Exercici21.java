@@ -9,7 +9,7 @@ public class Exercici21 {
         String file = "usertext.txt";
 
         try (Scanner sc = new Scanner(System.in);
-             FileOutputStream fos = new FileOutputStream(file)) {
+                FileOutputStream fos = new FileOutputStream(file)) {
 
             while (true) {
                 System.out.print("Entra un text: ");
